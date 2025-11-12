@@ -1,4 +1,4 @@
-Wild Animal Detection Using YOLOv8
+## Wild Animal Detection Using YOLOv8
 AI-Powered Real-Time Wildlife Monitoring System
 
 ##  Overview
