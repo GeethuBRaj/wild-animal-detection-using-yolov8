@@ -1,4 +1,4 @@
- Wild Animal Detection using YOLOv8
+ ##Wild Animal Detection using YOLOv8
 
 ##  Overview
 This project focuses on **wild animal detection using YOLOv8**, a state-of-the-art deep learning model for object detection.  
