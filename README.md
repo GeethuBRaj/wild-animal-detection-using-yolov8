@@ -1,13 +1,13 @@
  Wild Animal Detection using YOLOv8
 
-## 📘 Overview
+##  Overview
 This project focuses on **wild animal detection using YOLOv8**, a state-of-the-art deep learning model for object detection.  
 The system accurately identifies and classifies wild animals such as **elephants, lions, bears, and zebras** from images or live video streams.  
 It enables **real-time wildlife monitoring**, safety alerts, and conservation-related applications.
 
 ---
 
-## 🚀 Features
+##  Features
 - Real-time wild animal detection using YOLOv8
 - High accuracy and fast inference
 - Easy deployment in Flask or OpenCV
@@ -15,7 +15,7 @@ It enables **real-time wildlife monitoring**, safety alerts, and conservation-re
 
 ---
 
-## 🧠 Model Training
+##  Model Training
 The model is trained in **Google Colab** using the **Ultralytics YOLOv8 framework**.  
 It uses a curated dataset of wild animals to ensure accurate classification.
 
@@ -44,26 +44,10 @@ from ultralytics import YOLO
 model = YOLO('best.pt')
 model.predict(source=0, show=True)  # 0 for webcam
 
-📁 Project Structure
-├── dataset/
-│   ├── images/
-│   ├── labels/
-│   └── dataset.yaml
-├── runs/
-│   └── detect/animal_detector/
-│       └── weights/best.pt
-├── app.py  # Flask or OpenCV real-time detection
-└── README.md
+
 
 📊 Results
 
 The trained YOLOv8 model achieves high detection accuracy for multiple wild animal species in diverse environments.
 
-📜 License
 
-This project is open-source and available under the MIT License.
-
-👩‍💻 Author
-
-Geethu B Raj
-MTech AI & ML | Wildlife Monitoring Research
